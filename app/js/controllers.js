@@ -1,10 +1,10 @@
-var phonecatApp = angular.module("phonecatApp", []);
+var zombieApp = angular.module("zombieApp", []);
 
-phonecatApp.controller("PhoneListCtrl", ["$scope", "$http",
+zombieApp.controller("ZombieListCtrl", ["$scope", "$http",
   function($scope, $http){
-    $http.get("phones/phones.json").success(function(data){
-      $scope.phones = data;
+    $http.get("zombies/zombies.json").success(function(data){
+      $scope.zombies = data;
     });
 
-    $scope.orderProp = "age";
+    $scope.orderProp = "-year";
 }]);

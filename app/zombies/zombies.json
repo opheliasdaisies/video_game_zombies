@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Walker",
+    "id": "walker-walking-dead",
+    "imageUrl": "img/zombies/walker-walking-dead.jpg",
+    "game": "The Walking Dead",
+    "year": 2012
+  },
+  {
+    "name": "Dancing Zombie",
+    "id": "dancing-pvz",
+    "imageUrl": "img/zombies/dancing-pvz.jpg",
+    "game": "Plants Vs. Zombies",
+    "year": 2009
+  },
+  {
+    "name": "Clicker",
+    "id": "clicker-last-of-us",
+    "imageUrl": "img/zombies/clicker-last-of-us.jpg",
+    "game": "The Last of Us",
+    "year": 2013
+  }
+]
